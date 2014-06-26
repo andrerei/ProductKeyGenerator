@@ -1,6 +1,6 @@
 <?php
 /**
- * @autor <github.com/andrerei>
+ * @author <github.com/andrerei>
  */
 class ProductKeyGenerator {
 
