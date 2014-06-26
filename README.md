@@ -29,18 +29,21 @@ Then you can generate a key (a-z)
 
 ``` php
 $key->key('****-****-****-****');
+// GAMJ-HQVK-TWXD-XOIB
 ```
 
 or (0-9)
 
 ``` php
 $key->key('....-....-....-....');
+// 8499-1345-0397-0109
 ```
 
 or (a-z and 0-9)
 
 ``` php
 $key->key('+++-+++-+++');
+// GCW-EH3-083
 ```
 
 
@@ -57,6 +60,8 @@ $key->uppercase(false);
 
 ``` php
 $key->key('ABC2-****-****-****');
+// ABC2-TTXO-JHCP-JWFK
 
-$key->key('****-**B*-*8**');
+$key->key('****-**B*-*888');
+// KBQQ-GKBX-E888
 ```
